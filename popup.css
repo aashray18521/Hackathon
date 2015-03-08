@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+  /* This is the CSS for the modal dialog window */
+  .modal {
+    /*background-color: white;*/
+	background: #57374B;
+	border:solid 5px #BA5B8A;
+	border-radius:5px;
+	background-size:100% 100%;
+	
+    color: white;
+    border: 7px solid #666;
+    padding: 20px;
+    display: block;
+    position: fixed;/*doubt*//*its a must for popup ie either fixed or absolute*/
+	width:23%;
+	height:37%;
+    top: 27%;
+    left: 36%;
+	z-index:600;
+  }
+  .shade{
+	  background-color:#333;
+	  width:100%;
+	  height:100%;
+	  opacity:0.7;
+	  top: 0%;
+	  left: 0%;
+	  z-index:550;
+	  position: fixed;
+  }
+  input[type="text"],input[type="password"]{
+	width:200px;
+	height:22px;
+}

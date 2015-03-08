@@ -1,0 +1,180 @@
+body
+{
+margin:0px;
+padding:0px;
+}
+.header
+{
+width:980px;
+margin:0px auto;
+height: 85px;
+background:white;
+border-bottom:solid 2px #BA5B8A;
+}
+.logo a
+{
+padding:20px;
+float:left;
+font-size:50px;
+font-family:Magneto;
+color: #BA5B8A;
+text-decoration:none;
+}
+.nav
+{
+float:right;
+width:600px;
+z-index:500;
+}
+.ul1
+{
+margin-top:50px;
+}
+.li1 a
+{
+font-weight:bold;
+font-size:17px;
+color: rgba(231, 144, 196, 0.97);
+text-align:left;
+}
+.li1 a:hover
+{
+color:#BA5B8A;
+} 
+
+.ul1 li
+{
+display:inline-block;
+border-right:dotted gray 1px;
+margin-right:0px;
+padding:0px 10px 0px 5px;
+}
+.ul1 a 
+{
+text-decoration:none;
+}
+.show
+{
+background-color: #57374B;
+height:470px;
+margin:0px auto;
+}
+.slides
+{
+margin:0px auto;
+height:470px;
+width:970px;
+}
+
+.content
+{
+width:980px;
+margin:0px auto;
+height: 500px;
+}
+.cont1
+{
+width:28%;
+float:left;
+margin: 0px 52px 0px 0px;
+}
+.cont1 h2
+{
+color: rgba(231, 144, 196, 0.97);
+margin:5px 0px 0px;
+}
+.cont1 p
+{
+color:#666666;
+text-align:justify;
+}
+.cont1 img
+{
+border:solid 5px #BA5B8A;
+border-radius:8px;
+margin:10px 0px 0px 0px;
+}
+.cont1 a
+{
+text-decoration:none;
+padding-right:10px;
+padding-left:5px;
+color: rgba(231, 144, 196, 0.97);
+}
+.cont1 a:hover
+{
+color: #BA5B8A;
+font-weight: bold;
+}
+.connection
+{
+width:980px;
+margin:0px auto;
+height:380px;
+}
+.conn 
+{
+width:32%;
+float:left;
+margin-right:12px;
+}
+.conn img
+{
+width:47px;
+}
+.list
+{
+height:68px;
+border-bottom:dashed gray 1px;
+margin-top:0;
+}
+.list img
+{
+float:left;
+border:solid gray 5px;
+margin:4px 9px;
+}
+.list a 
+{
+text-decoration:none;
+color:gray;
+}
+.footer
+{
+background-color:#57374B;
+border-top:solid #BA5B8A 5px;
+height:100px;
+}
+.ftr
+{
+width:980px;
+margin:0px auto;
+}
+.ltft
+{
+margin-top:15px;
+float:left;
+width: 540px;
+color:gray;
+}
+.ltft a 
+{
+text-decoration:none;
+color:gray;
+}
+.ltft ul 
+{
+margin:0px 0px 0px -40px;
+}
+.ltft li 
+{
+display:inline;
+border-right:solid gray 1px; 
+padding-right:5px;
+}
+.rtft
+{
+margin-top:15px;
+float:right;
+color:gray;
+}

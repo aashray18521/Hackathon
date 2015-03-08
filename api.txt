@@ -1,0 +1,15 @@
+$pid='<Pid ts="" ver="1.0"><Demo><Pi ms="E" mv="100" name="Shivshankar Choudhury" gender="M" dob="1968-05-13" dobt="V" phone="2810806979" email="schoudhury@dummyemail.com"/></Pid>';
+
+$sha256pid= hash("sha256",$pid);
+echo $sha256pid;
+//encrypt and then encode
+
+$fp= fopen("public-may2012.p12","r");
+
+$cert= fread($fp,);
+fclose($fp);
+
+$xml='<Auth uid="999999990019" pid="public" ac="public" sa="public" ver="1.6" txn="dyts8888" lk="MEWs4XwP0AzUVGSlKwZkMqeHJqyOvzIfz1rxEFm1uu0cRhoxjeWcIqY"><Uses pi="y" pa="n" pfa="n" bio="n" bt="n" pin="n" otp="n"/><Tkn type="001" value="2810806979"/><Meta udc="" fdc="NA" idc="NA" pip="NA" lot="P" lov="110002" /><Skey ci="20150805"></Skey><Data type="X">$pid</Data><Hmac></Hmac><Signature></Signature></Auth>';
+
+$url='http://auth.uidai.gov.in/1.6/public/9/9/MKzX8dnY5qyuO4z8neQPDqrSCMAU5pCS32obnzl83xwtFdi45gwK6QA';
+

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background: #fff;
+background-size:100%;
+}
+input[type=submit]{
+	color:#BA5B8A;
+	font-weight:bolder;
+	background-color:#fff;
+	border-color:#aaa;
+}
+.signupform{
+	background: #57374B;
+	border:solid 5px #BA5B8A;
+	border-radius:5px;
+	padding: 20px;
+	width:35%;
+	margin: 0 auto 10px;
+	z-index:100;
+	position:relative;
+}
+input[type="text"],input[type="password"]{
+	color:#999;
+	width:200px;
+	height:22px;
+	padding-left:5px;
+	border-radius:3px;
+}
+input[type="text"]:hover{
+	color:#999;
+	width:200px;
+	height:22px;
+	padding-left:5px;
+	border-color:#999;
+}
+input[type="password"]:hover{
+	color:#999;
+	width:200px;
+	height:22px;
+	padding-left:5px;
+	border-color:#999;
+}
+.field{
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	margin-top:15px;
+	color: white;
+}
+input[type=text],input[type=password]:focus{
+	color:#000;
+}
+.anim
+{
+	float:left;
+	z-index:1;
+width:300px;
+height:450px;
+position:fixed;/*for floating elements*/
+-webkit-animation:mymove 7s infinite; /*Safari and Chrome*/
+}
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+0%   {background-image:url(./poster/form-poster1.jpg); left:50px; top:150px;}
+30%   {background-image:url(./poster/form-poster1.jpg); left:50px; top:150px;}
+50%  {background-image:url(./poster/black.jpg);left:50px; top:150px;}
+70%   {background-image:url(./poster/form-poster1.jpg); left:50px; top:150px;}
+100% {background-image:url(./poster/form-poster1.jpg); left:50px; top:150px;}
+}
+
+
+.anim1
+{
+	float:left;
+width:300px;
+height:200px;
+z-index:2;
+position:fixed;
+-webkit-animation:mymove1 15s; /*Safari and Chrome*/
+-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes mymove1 /*Safari and Chrome*/
+{
+0%   {background-image:url(./poster/smurfs2.jpg); left:500px; top:40px; opacity:0;}
+10%  {background-image:url(./poster/smurfs2.jpg);left:1000px; top:40px; opacity:1;}
+70% {background-image:url(./poster/smurfs2.jpg); left:1000px; top:40px; opacity:1;}
+80% {background-image:url(./poster/smurfs2.jpg); left:1000px; top:-200px; opacity:0;}
+100% {background-image:url(./poster/smurfs2.jpg); left:1000px; top:-200px; opacity:0;}
+}
+.anim2
+{
+	float:left;
+width:300px;
+height:200px;
+z-index:3;
+position:fixed;
+-webkit-animation:mymove2 15s; /*Safari and Chrome*/
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-delay:2s;
+
+}
+@-webkit-keyframes mymove2 /*Safari and Chrome*/
+{
+0%   {background-image:url(./poster/fastnfurious.jpg); left:500px; top:245px; opacity:0;}
+10%  {background-image:url(./poster/fastnfurious.jpg);left:1000px; top:245px; opacity:1;}
+70% {background-image:url(./poster/fastnfurious.jpg); left:1000px; top:245px;opacity:1;}
+80% {background-image:url(./poster/fastnfurious.jpg); left:1000px; top:-200px;opacity:0;}
+100% {background-image:url(./poster/fastnfurious.jpg); left:1000px; top:-200px;opacity:0;}
+}
+.anim3
+{
+	float:left;
+width:300px;
+height:200px;
+z-index:4;
+position:fixed;
+-webkit-animation:mymove3 15s; /*Safari and Chrome*/
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-delay:4s;
+
+}
+@-webkit-keyframes mymove3 /*Safari and Chrome*/
+{
+0%   {background-image:url(./poster/thor2.jpg); left:500px; top:455px; opacity:0;}
+10%  {background-image:url(./poster/thor2.jpg);left:1000px; top:455px; opacity:1;}
+70% {background-image:url(./poster/thor2.jpg); left:1000px; top:455px;opacity:1;}
+80% {background-image:url(./poster/thor2.jpg); left:1000px; top:-200px;opacity:0;}
+100% {background-image:url(./poster/thor2.jpg); left:1000px; top:-200px;opacity:0;}
+}
